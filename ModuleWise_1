@@ -1,0 +1,23 @@
+2.1.	Module 1: Core Communication Layer
+Purpose: The Core Communication Layer is the foundation of a secure and efficient Inter-Process Communication (IPC) framework,
+enabling reliable data exchange between processes. It serves as the base infrastructure upon which higher-layer security, authentication, and monitoring mechanisms are built.
+Role: Establish reliable communication channels between processes, manage connections, and provide the low-level transport mechanisms.
+
+
+2.2.	Module 2: Security Services Layer
+Purpose: The Security Services Layer is responsible for ensuring secure communication between processes by
+implementing encryption, authentication, access control, and integrity verification. It protects against
+unauthorized access, data breaches, and tampering, ensuring that only legitimate processes can communicate securely.
+Role: The Security Services Layer plays a critical role in protecting inter-process
+communication (IPC) by enforcing encryption, authentication, access control, and integrity verification. It acts as a gatekeeper that ensures only authorized
+processes can communicate securely, preventing unauthorized access, data leaks, and cyber threats.
+
+2.3.	Module 3: API and Integration Layer
+Purpose: The API and Integration Layer serves as the interface between applications and the
+underlying IPC framework. It provides well-defined, easy-to-use functions that allow developers
+to interact with the Core Communication Layer and Security Services Layer without handling low-level
+complexities. This layer ensures seamless integration of the secure IPC framework into various applications,
+making it easier to build scalable, secure, and efficient communication solutions.
+Role: The API and Integration Layer acts as the bridge between the IPC framework and
+application developers. It provides a simple, structured, and secure way for applications
+to interact with the underlying communication and security mechanisms, without requiring developers to deal with low-level complexities.
